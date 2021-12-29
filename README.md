@@ -4,7 +4,7 @@ Tradegate Stock Info for https://scriptable.app 📈
 
 ## Usage:
 
-**Widget Parameter:** `ISIN;EK;smoothPath eg US6700024010;50.0;1`
+**Widget Parameter (ISIN;EK;smoothPath(0|1)):** `US6700024010;50.0;1`
 
 
 ## Examples:
