@@ -1,4 +1,4 @@
-// Tradegate Stock Info for https://scriptable.app 📈 by Chrischi-
+// Tradegate Stock Widget for https://scriptable.app 📈 by Chrischi-
 
 let smoothPath = 0
 let stockInfo = []
