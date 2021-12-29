@@ -1,5 +1,5 @@
-# tradegate-stock-info-for-scriptable
-Tradegate Stock Info for https://scriptable.app 📈
+# Tradegate(Exchange) Stock Widget
+Tradegate Stock Widget for https://scriptable.app 📈
 
 
 ## Usage:
