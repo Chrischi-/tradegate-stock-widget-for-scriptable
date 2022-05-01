@@ -4,8 +4,9 @@ Tradegate Stock Widget for https://scriptable.app 📈
 
 ## Usage:
 
-**Widget Parameter (ISIN;EK;smoothPath(0|1)):** `US6700024010;50.0;1`
+**Widget Parameter (ISIN;EK;smoothPath(0|1)):** `US6700024010;20.0;1`
 
+![widget_parameter](https://user-images.githubusercontent.com/6323217/166156462-3824d7d9-dbc3-4016-87b3-2ecbc842c758.png)
 
 ## Examples:
 
