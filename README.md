@@ -6,6 +6,10 @@ Tradegate Stock Widget for https://scriptable.app 📈
 
 **Widget Parameter (ISIN;EK;smoothPath(0|1)):** `US6700024010;20.0;1`
 
+ISIN = International Securities Identification Number<br>
+EK = purchase price<br>
+smoothPath: 0 = off; 1 = on<br>
+
 ![widget_parameter](https://user-images.githubusercontent.com/6323217/166156462-3824d7d9-dbc3-4016-87b3-2ecbc842c758.png)
 
 ## Examples:
