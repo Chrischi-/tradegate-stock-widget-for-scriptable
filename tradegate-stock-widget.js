@@ -1,4 +1,10 @@
-// Tradegate Stock Widget for https://scriptable.app 📈 by Chrischi-
+/* --------------------------------------------------------------
+Tradegate Stock Widget for https://scriptable.app 📈 by Chrischi-
+
+Script: tradegate-stock-widget.js
+Author: Chrischi
+Version: 1.0.0
+-------------------------------------------------------------- */
 
 let smoothPath = 0
 let stockInfo = []
@@ -149,11 +155,11 @@ class LineChart {
   header.font = Font.boldSystemFont(15)
   header.textColor = Color.white()
   
-  titleStack.addSpacer(38)
+  titleStack.addSpacer()
   
   if (stockInfo[1] > 0) {
   let change = Math.round((100*attr)/stockInfo[1]-100)
-  trend = ("       " + trend+" "+change+"%").slice(-7)
+  trend = (trend+" "+change+"%").slice(-7)
   const label_nxt = titleStack.addText(trend)
   label_nxt.textColor = color
   label_nxt.font = Font.boldSystemFont(13)
@@ -173,7 +179,7 @@ class LineChart {
 }else{
   timeline=[0]
 } 
-  let chart = new LineChart(400, 80, timeline).configure((ctx, path) => {
+  let chart = new LineChart(535, 80, timeline).configure((ctx, path) => {
     ctx.opaque = false;
     ctx.setStrokeColor(color);
     ctx.setLineWidth(5.5);
